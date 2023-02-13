@@ -4,7 +4,7 @@ function setup() {
   createCanvas(700, 700);
   noLoop();
 
-  fetch("../json/wiki_trend.json").then(function(response) {
+  fetch("https://11kii.github.io/wcc-portfolio/json/wiki_trend.json").then(function(response) {
     return response.json();
   }).then(function(data) {
 

@@ -11,7 +11,7 @@ function setup() {
   //no animation / interaction chart
   noLoop();
 
-  fetch("../json/wiki_trend.json").then(function(response) {
+  fetch("https://11kii.github.io/wcc-portfolio/json/wiki_trend.json").then(function(response) {
     return response.json();
   }).then(function(data) {
 
