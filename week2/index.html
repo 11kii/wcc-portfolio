@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+
+
+<title>Happy Bear</title>
+</head>
+<body>
+<header>
+<h1 class="logo">Shuyi Huang</h1>
+<ul class="nav">
+<li class="navlink"><a href="../index.html">Home</a></li>
+<li class="navlink"><a href="../week1/index.html">week1</a></li>
+<li class="navlink"><a href="../week2/index.html">week2</a></li>
+<li class="navlink"><a href="../week3/index.html">week3</a></li>
+<li class="navlink"><a href="../week4/index.html">week4</a></li>
+</ul>
+</header>
+
+
+<body>
+  <main>
+    <div id="p5_canvas" class="center"></div>
+    <div class="center_b">
+      <button id='smile' >Make the Bear Smile!</button>
+  </div>
+  </main>
+</body>
+</html>
+
+<script>
+  var yo=50
+  function setup() {
+    
+    var canvas = createCanvas(600, 600);
+    canvas.parent('p5_canvas');
+    canvas.style('display', 'block');
+    canvas.style('margin-left', 'auto');
+    canvas.style('margin-right', 'auto');
+
+    var button_smile= select('#smile')
+    button_smile.mousePressed(happier)
+    strokeWeight(4);
+    frameRate(30);
+    // noLoop()
+  }
+  function bar(){
+    push();
+    noStroke();
+    if (yo>100){
+      fill(0,255,0);
+    }
+    else if (yo>0){
+      fill(0,0,255);
+    }
+    else{
+      fill(255,0,0);
+    }
+    rect(500, 350, 40, -yo)
+    pop();
+
+  }
+  function happier (){
+    yo+=random(20);;
+    console.log(yo)
+  }
+
+  function face() {
+    background(255); //This is a white background
+    fill(255); 
+    //ears
+    ellipse(170,170,100,100);
+    ellipse(430,170,100,100);
+    //face
+    ellipse(300,300,300,300);
+    ellipse(300,360,170,140);
+    //eyes
+    fill(0);
+    ellipse(230,260,20,30);
+    ellipse(370,260,20,30);
+    //nose
+    ellipse(300,320,50,30);
+  }
+
+  function smile() {
+    face();
+    fill(255);
+    arc(300, 380, 40, 40, PI/2-PI/3, PI/2+PI/3);
+  }
+  function sad() {
+    face();
+    fill(255);
+    arc(300, 400, 40, 40, (7/6)*PI, (11/6)*PI);
+  }
+
+
+  function doubt() {
+    face();
+    fill(255);
+    line()
+    line(285,400,315,400);
+
+  }
+
+  function draw() {
+    face();
+    
+    if (yo>=100){
+      smile()
+    }
+    else if (yo>0){
+      doubt()
+    }
+    else{
+      sad()
+    }
+    if (yo>-100){
+      yo--;
+    }
+    bar();
+    console.log(yo)
+  }
+</script>
+
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    /* background-color: #1b1b1b; */
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  .center_b {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+
+  
+  
+ button {
+  background-color: #0489aa; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  /* float: relative; */
+  margin-left: 44%;
+  margin-right: auto;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Clear floats (clearfix hack) */
+button:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>

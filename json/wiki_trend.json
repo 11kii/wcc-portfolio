@@ -1,0 +1,131 @@
+{
+  "name": "Wiki_trend",
+  "url": "https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report",
+  "content": [
+    {
+      "rank": "1",
+      "name": "Pathaan (film)",
+      "reviews": "2,115,900"
+    },
+    {
+      "rank": "2",
+      "name": "ChatGPT",
+      "reviews": "1,871,580"
+    },
+    {
+      "rank": "3",
+      "name": "The Last of Us (TV series)",
+      "reviews": "1,658,357"
+    },
+    {
+      "rank": "4",
+      "name": "Kiara Advani",
+      "reviews": "1,538,943"
+    },
+    {
+      "rank": "5",
+      "name": "2023 Turkey–Syria earthquake",
+      "reviews": "1,492,216"
+    },
+    {
+      "rank": "6",
+      "name": "Pedro Pascal",
+      "reviews": "1,284,539"
+    },
+    {
+      "rank": "7",
+      "name": "Burt Bacharach",
+      "reviews": "1,272,831"
+    },
+    {
+      "rank": "8",
+      "name": "Kim Petras",
+      "reviews": "1,241,199"
+    },
+    {
+      "rank": "9",
+      "name": "Sidharth Malhotra",
+      "reviews": "1,105,868"
+    },
+    {
+      "rank": "10",
+      "name": "Deaths in 2023",
+      "reviews": "972.921"
+    },
+    {
+      "rank": "11",
+      "name": "P. K. Rosy",
+      "reviews": "959,781"
+    },
+    {
+      "rank": "12",
+      "name": "LeBron James",
+      "reviews": "953,726"
+    },
+    {
+      "rank": "13",
+      "name": "Hogwarts Legacy",
+      "reviews": "951,140"
+    },
+    {
+      "rank": "14",
+      "name": "Harry Styles",
+      "reviews": "931,469"
+    },
+    {
+      "rank": "15",
+      "name": "Pamela Anderson",
+      "reviews": "925,304"
+    },
+    {
+      "rank": "16",
+      "name": "Mama Cax",
+      "reviews": "802,082"
+    },
+    {
+      "rank": "17",
+      "name": "65th Annual Grammy Awards",
+      "reviews": "779,856"
+    },
+    {
+      "rank": "18",
+      "name": "List of highest-grossing Indian films",
+      "reviews": "767,945"
+    },
+    {
+      "rank": "19",
+      "name": "Kareem Abdul-Jabbar",
+      "reviews": "751.362"
+    },
+    {
+      "rank": "20",
+      "name": "The Last of Us",
+      "reviews": "665.665"
+    },
+    {
+      "rank": "21",
+      "name": "2023 Chinese balloon incident",
+      "reviews": "644.613"
+    },
+    {
+      "rank": "22",
+      "name": "Bella Ramsey",
+      "reviews": "631,384"
+    },
+    {
+      "rank": "22",
+      "name": "Cristiano Ronaldo",
+      "reviews": "608.702"
+    },
+    {
+      "rank": "24",
+      "name": "Avatar: The Way of Water",
+      "reviews": "590.119"
+    },
+    {
+      "rank": "25",
+      "name": "Black Panther: Wakanda Forever",
+      "reviews": "586.933"
+    }
+  ]
+}
