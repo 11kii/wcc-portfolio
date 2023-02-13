@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     body {
-    color: blue;
+    color: rgb(48, 48, 109);
     }
    }
 
@@ -17,7 +17,7 @@ align-items: center;
 justify-content: space-around;
 }
 .nav a{
-    color: #e8e6e3;
+    color: #110c05;
 }
 .nav {
 display: flex;
@@ -34,7 +34,7 @@ width: 30%;
 
 
 .nav_center a{
-    color: #e8e6e3;
+    color: #110e0a;
 }
     
 .nav li {
