@@ -1,0 +1,90 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symphony of Life</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Symphony of Life</h1>
+        <h2>An Interactive Exploration of Nature's Complexities</h2>
+        <h3>Author: Shuyi Huang</h3>
+        <h4>A Multisensory Experience of the Natural World</h4>
+    
+        <div id="container"></div>
+        <div  class="video-container">
+            <iframe src="https://player.vimeo.com/video/822812093?h=9e8c1e76b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="wcc2 final Shuyi Huang"></iframe>
+          </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <h2>Project Making Process</h2>
+          <div id="images">
+              <img src="1.jpg" alt="Project image 1">
+              <div class="stacked-images">
+                <img src="2.jpg" alt="Project image 2">
+                <img src="3.jpg" alt="Project image 3">
+              </div>
+          </div>
+        </div>
+
+</body>
+
+<style>
+        body, html {
+      height: 100%;
+      margin: 0;
+      /* display: flex; */
+      justify-content: center; 
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    #container {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .video-container {
+      padding:30% 0% 0 0;
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #wrapper {
+      margin-top: 2em;
+      position: relative;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    #images {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    #images img {
+      width: 100%;
+      height: 60%;
+      max-width: 300px;
+      margin: 1rem;
+    }
+
+    .stacked-images {
+      display: flex;
+      flex-direction: column;
+    }
+</style>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+</html>
